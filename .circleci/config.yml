@@ -3,7 +3,7 @@ version: 2.1
 orbs:
   python: circleci/python@0.2.1
 
-jobs:
+jobs:andrisepun2.py
   build-and-test:
     executor: python/default
     steps:
@@ -12,10 +12,11 @@ jobs:
       - python/install-deps
       - python/save-cache
       - run:
-          command: ./manage.py test
-          name: Test
+          command: ./managesepun2.py test
+          name: Testandri
 
-workflows:
-  main:
-    jobs:
-      - build-and-test
+workfandri
+  andrisepun2.py
+    jobpysepun . py
+      - build-and-tepy
+
